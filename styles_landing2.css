@@ -1,0 +1,161 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.p {
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    margin-top: 100px;
+    width: 90%;
+    height: 500px;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #5b2929;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Header styles */
+.header-content {
+    text-align: center;
+    padding: 150px 0;
+    color: #fff;
+    background-color: #3F2E3E;
+
+}
+
+/* About section styles */
+.weddingphoto {
+
+    padding: 80px 0;
+
+    background-color: #331D2C;
+}
+
+.photo {
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+
+}
+
+.pooja {
+    margin-left: 8%;
+    font-family: cursive;
+
+}
+
+.house {
+    height: 300px;
+    width: 300px;
+    margin-left: 1000px;
+}
+
+.h {
+    margin-top: 100px;
+    margin-left: 75%;
+    font-family: cursive;
+}
+
+.n {
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: cursive;
+
+}
+
+.pic {
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+
+}
+
+/* Project card styles */
+.project-card {
+    background-color: #E91E63;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Contact section styles */
+.about {
+    text-align: justify;
+    padding: 80px 0;
+    background-color: #A78295;
+
+
+}
+
+.a {
+    color: black;
+    text-align: center;
+}
+
+.ab {
+    width: 200px;
+    height: 200px;
+    margin-left: 40%;
+
+}
+
+.para {
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #EFE1D1;
+
+}

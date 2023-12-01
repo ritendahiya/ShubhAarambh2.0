@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(search_back.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    background-color: #822121;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.container {
+    size: 200%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.autocomplete {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+
+}
+
+#search-box {
+    width: 100%;
+    padding: 12px;
+    font-size: 28px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    outline: none;
+    background-color: #e3e3ba;
+}
+
+.autocomplete-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 1800px;
+    overflow-y: auto;
+    border: 1px solid #eaa845;
+    border-radius: 8px;
+    background-color: #e8eac9;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+    font-size: 28px;
+}
+
+#listelement {
+    font-size: 28px;
+
+}
+
+.result-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.result-item:hover {
+    background-color: #f0f0f0;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.result_id {
+    display: block;
+    width: 100%;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.result_id:hover {
+    background-color: #f0f0f0;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+footer {
+    margin-top: 500px;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}

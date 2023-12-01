@@ -1,0 +1,71 @@
+
+<head>
+    <title id="title_container">Result Page</title>
+    <head>
+        <title id="title_container">Result Page</title>
+        <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#title_container {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#result-container {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+.navbar-brand {
+    display: inline-block;
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 10px;
+    background-color: #dddddd;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    background-color: #aaaaaa;
+}
+
+        </style>
+    </head>
+    
+</head>
+<body>
+    <a class="navbar-brand" href="index.html">BACK TO SEARCH</a>
+    <div id="result-container"></div>
+    <script>
+        const resultContainer = document.getElementById('result-container');
+        const titlecontainer = document.getElementById('title_container');
+        const urlParams = new URLSearchParams(window.location.search);
+        const countryName = urlParams.get('country');
+
+        if (countryName) {
+            resultContainer.textContent = `You selected: ${countryName}`;
+            titlecontainer.textContent = `${countryName}`;
+        }
+    </script>
+</body>
+</html>
